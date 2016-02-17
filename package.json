@@ -1,7 +1,6 @@
 {
   "name": "tarsius-messaging-email-mandrill",
   "version": "0.0.1",
-  "private": true,
   "description": "tarsius plugin for send email via mandrill transporter",
   "main": "index.js",
   "scripts": {
