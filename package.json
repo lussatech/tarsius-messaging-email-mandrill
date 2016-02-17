@@ -1,0 +1,28 @@
+{
+  "name": "tarsius-messaging-email-mandrill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tarsius plugin for send email via mandrill transporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^1.10.0",
+    "nodemailer-html-to-text": "^1.0.2",
+    "nodemailer-mandrill-transport": "^1.0.0"
+  },
+  "tarsius": {
+    "type": "messaging.email",
+    "name": "Mandrill mail gateway",
+    "configs": [
+        {
+          "name": "apiKey",
+          "title": "API key",
+          "type": "string"
+        }
+    ]
+  }
+}
