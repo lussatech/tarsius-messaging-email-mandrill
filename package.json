@@ -1,14 +1,14 @@
 {
   "name": "tarsius-messaging-email-mandrill",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "tarsius plugin for send email via mandrill transporter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "muhammad hasan <hasan@lussa.net>",
+  "license": "MIT",
   "dependencies": {
     "nodemailer": "^1.10.0",
     "nodemailer-html-to-text": "^1.0.2",
@@ -18,11 +18,24 @@
     "type": "messaging.email",
     "name": "Mandrill mail gateway",
     "configs": [
-        {
-          "name": "apiKey",
-          "title": "API key",
-          "type": "string"
-        }
+      {
+        "name": "apiKey",
+        "title": "API key",
+        "type": "string"
+      }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lussatech/tarsius-messaging-email-mandrill.git"
+  },
+  "keywords": [
+    "mandrill",
+    "email",
+    "tarsius"
+  ],
+  "bugs": {
+    "url": "https://github.com/lussatech/tarsius-messaging-email-mandrill/issues"
+  },
+  "homepage": "https://github.com/lussatech/tarsius-messaging-email-mandrill#readme"
 }
